@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adopt a Pet</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+
+        <h1>Adopt a Pet</h1>
+        <p>Find your new furry friend and give them a loving home!</p>
+        <div class="adopt-nav">
+            <a href="index.html">Home</a>
+            <a href="volunteer.html">Volenteer</a>
+            <a href="donate.html">Donate</a>
+        </div>
+
+    </header>
+    <main class="main-adopt">
+
+        <section class="adopt">
+            <div class="adoptinfo">
+                <form id="adoption-form">
+                    <h5>Fill this form and <br>
+                        Adopt a child today!!! </h5>
+                    <label for="name">Name:</label><br>
+                    <input type="text" id="name" name="name" required><br>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" required><br>
+                    <label for="phone">Phone:</label><br>
+                    <input type="tel" id="phone" name="phone" required><br>
+                    <label for="address">Address:</label><br>
+                    <textarea id="address" name="address" required></textarea><br>
+                    <label for="animal">Name the pet you want to adopt:</label><br>
+                    <input type="text" id="animal-choosen" name="animal-choosen" required><br>
+                    <label for="why">Why do you want to adopt this animal?:</label><br>
+                    <textarea id="why" name="why" required></textarea><br>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </section>
+
+        <section class="featured-animals">
+            <h2 class="adopt-head2">Our Available Pets </h2>
+            <p class="adopt-head3">Discover some of the wonderful companions waiting for their forever homes at our
+                shelter. Each of these pets has a unique personality and is eagerly awaiting the chance to bring joy and
+                love into your life.
+            </p>
+
+            <div class="animal">
+                <img src="Pets/Dog-home.jpg" alt="Cat">
+                <h3 class="name">Charlie</h3>
+                <p>Murphy is a friendly and playful dog who loves long walks in the park and fetching his favorite toys.
+                    Murphy is a quick
+                    learner and would thrive in a home where he can continue to learn new tricks and receive plenty of
+                    mental stimulation. He's looking for an active family who will provide him with lots of love and
+                    exercise.</p>
+            </div>
+
+            <div class="animal">
+                <img src="Pets/dog3.png" alt="Cat">
+                <h3 class="name">Toby</h3>
+                <p>Toby is a gentle giant with a heart of gold. He enjoys spending his days lounging in the sunshine and
+                    snuggling up with his favorite humans. He's great with children and other pets, making him the
+                    perfect addition to any
+                    household. Toby is hoping to find a loving family who will cherish him and give him the attention he
+                    deserves.</p>
+            </div>
+            <div class="animal">
+                <img src="Pets/Cat-home.jpg" alt="Cat">
+                <h3 class="name">Luna</h3>
+                <p>Luna is a majestic feline with a playful spirit. She loves chasing after feather toys and exploring
+                    every nook and cranny of her surroundings. She's independent but also enjoys cuddling up with her
+                    humans during quiet
+                    evenings at home. Luna would thrive in a home where she can receive plenty of love, attention, and
+                    enrichment to keep her entertained.</p>
+            </div>
+
+        </section>
+
+        <section class="adoption-process">
+            <h2>Adoption Process</h2>
+            <p>At Shelter Home, we strive to ensure that every pet finds a loving and caring forever home. Our adoption
+                process is designed to match each pet with the right family, ensuring a successful and fulfilling
+                adoption experience for both the animal and the adopter.</p>
+
+            <h3>Step 1: Explore Available Pets</h3>
+            <p>Begin your journey by exploring the profiles of our available pets either on our website or by visiting
+                our shelter. Each pet has a unique personality and set of needs, so take your time to find the perfect
+                match for your lifestyle and preferences.</p>
+
+            <h3>Step 2: Meet and Greet</h3>
+            <p>Once you've found a pet you're interested in, it's time to meet them in person. Visit our shelter during
+                our opening hours to spend some quality time getting to know the pet. Our staff will be on hand to
+                answer any questions you may have and to facilitate introductions.</p>
+
+            <h3>Step 3: Application and Interview</h3>
+            <p>If you've found the perfect match, you can fill out an adoption application form. This form helps us
+                learn more about you and your lifestyle to ensure that the pet is a good fit for your home. After
+                reviewing your application, one of our adoption counselors will conduct a brief interview to discuss
+                your expectations and responsibilities as a pet owner.</p>
+
+            <h3>Step 4: Home Visit</h3>
+            <p>In some cases, we may conduct a home visit to ensure that your living environment is safe and suitable
+                for the pet you wish to adopt. This step helps us ensure that both you and the pet will be happy and
+                comfortable in your new home.</p>
+
+            <h3>Step 5: Adoption Fee and Paperwork</h3>
+            <p>Once your application has been approved and all necessary checks have been completed, it's time to
+                finalize the adoption. You'll be required to pay an adoption fee, which helps cover the cost of the
+                pet's care while they were at our shelter. We'll also provide you with all the necessary paperwork,
+                including vaccination records and microchip information.</p>
+
+            <h3>Step 6: Welcome Home!</h3>
+            <p>Congratulations! You've successfully adopted a new furry friend and welcomed them into your family. Our
+                staff will provide you with guidance and support as you and your pet adjust to your new life together.
+                Remember, adoption is a lifelong commitment, and we're here to support you every step of the way.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; Kindness Corner
+            <?php echo date("Y"); ?>. All rights reserved.
+        </p>
+        <p>made with &#10084; by Lucky</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
